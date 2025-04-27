@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 # Always shutdown containers
 function down {
     docker compose down
