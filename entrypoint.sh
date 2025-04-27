@@ -2,4 +2,5 @@
 
 set -ex
 
-exit 0
+# Run migrations of the DB if needed
+alembic upgrade head
