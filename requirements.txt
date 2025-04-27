@@ -1,9 +1,16 @@
+# For dashboard UI
 dash==3.0.3
+pandas==2.2.3
+
+# For database
 psycopg2-binary==2.9.10
 sqlalchemy==2.0.40
 alembic==1.15.2
-pandas==2.2.3
+
+# For networking
 requests==2.32.3
 pytz==2025.2
+
+# For tests
 pytest==8.3.5
-pytest-mock==3.14.0
+requests-mock==1.12.1
