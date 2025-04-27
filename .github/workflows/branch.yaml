@@ -11,3 +11,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Build Docker Images
         run: docker compose build
+      - name: Run tests
+        run: bash build_and_test.sh
