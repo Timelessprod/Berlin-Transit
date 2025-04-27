@@ -1,0 +1,14 @@
+name: Branch CI
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+jobs:
+  Build-And-Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Build Docker Images
+        run: docker compose build
