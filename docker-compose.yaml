@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:15.6
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: S3cr3t_P4ssw0rd
+      POSTGRES_DB: transit
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_APP: app
+      FLASK_ENV: development
+      DATABASE_URL: postgresql://postgres:S3cr3t_P4ssw0rd@postgres:5432/transit
+
+volumes:
+  pgdata:
