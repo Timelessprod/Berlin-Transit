@@ -22,4 +22,4 @@ until docker compose exec postgres pg_isready -U postgres > /dev/null 2>&1; do
 done
 
 # Run tests
-docker compose run --rm --entrypoint "" app bash -c "alembic upgrade head"
+docker compose run --rm --entrypoint "" app bash -c "alembic upgrade head && pytest -vvv"
