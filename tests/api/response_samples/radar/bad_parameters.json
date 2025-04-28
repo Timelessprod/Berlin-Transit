@@ -1,0 +1,3 @@
+{
+	"message": "bbox.north must not be equal to bbox.south."
+}

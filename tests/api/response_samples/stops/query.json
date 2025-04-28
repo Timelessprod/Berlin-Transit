@@ -1,0 +1,15 @@
+[
+	{
+		"type": "station",
+		"id": "de:11000:900017103",
+		"name": "U Gleisdreieck",
+		"location": {
+			"type": "location",
+			"latitude": 52.499587,
+			"longitude": 13.374293
+		},
+		"weight": 8357.5,
+		"relevance": 2.2321454975688773,
+		"score": 45.29823649414125
+	}
+]

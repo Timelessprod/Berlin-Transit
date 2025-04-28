@@ -1,0 +1,35 @@
+[
+	{
+		"type": "station",
+		"id": "de:11000:900100007::3",
+		"name": "S Oranienburger Str.",
+		"location": {
+			"type": "location",
+			"latitude": 52.524724,
+			"longitude": 13.392833
+		},
+		"weight": 3
+	},
+	{
+		"type": "station",
+		"id": "de:12070:900215110",
+		"name": "Bad Wilsnack, Bhf",
+		"location": {
+			"type": "location",
+			"latitude": 52.960139,
+			"longitude": 11.949455
+		},
+		"weight": 633
+	},
+	{
+		"type": "station",
+		"id": "de:12062:900415465",
+		"name": "Prösen, Bhf",
+		"location": {
+			"type": "location",
+			"latitude": 51.434892,
+			"longitude": 13.488202
+		},
+		"weight": 293
+	}
+]
