@@ -1,0 +1,1525 @@
+{
+	"movements": [
+		{
+			"direction": "Gleisdreieck",
+			"tripId": "1|75567|5|86|28042025",
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-u-bahn-u2",
+				"fahrtNr": null,
+				"name": "U2",
+				"public": true,
+				"productName": "U",
+				"mode": "train",
+				"product": "subway"
+			},
+			"location": {
+				"type": "location",
+				"latitude": 52.522003,
+				"longitude": 13.41347
+			},
+			"nextStopovers": [
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900130002",
+						"name": "S+U Pankow (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900130002",
+							"latitude": 52.567281,
+							"longitude": 13.412283
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": null,
+					"plannedArrival": null,
+					"arrivalDelay": null,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": "2025-04-28T23:23:00+02:00",
+					"plannedDeparture": "2025-04-28T23:23:00+02:00",
+					"departureDelay": 0,
+					"departurePlatform": "1",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "1"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100016",
+						"name": "U Rosa-Luxemburg-Platz (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100016",
+							"latitude": 52.528529,
+							"longitude": 13.41009
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:33:00+02:00",
+					"plannedArrival": "2025-04-28T23:32:00+02:00",
+					"arrivalDelay": 60,
+					"arrivalPlatform": "1",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "1",
+					"departure": "2025-04-28T23:33:00+02:00",
+					"plannedDeparture": "2025-04-28T23:32:00+02:00",
+					"departureDelay": 60,
+					"departurePlatform": "1",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "1"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100003",
+						"name": "S+U Alexanderplatz Bhf (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100003",
+							"latitude": 52.521508,
+							"longitude": 13.411267
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": true
+						}
+					},
+					"arrival": "2025-04-28T23:35:00+02:00",
+					"plannedArrival": "2025-04-28T23:34:00+02:00",
+					"arrivalDelay": 60,
+					"arrivalPlatform": "1 (U2)",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "1 (U2)",
+					"departure": "2025-04-28T23:35:00+02:00",
+					"plannedDeparture": "2025-04-28T23:34:00+02:00",
+					"departureDelay": 60,
+					"departurePlatform": "1 (U2)",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "1 (U2)"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900017103",
+						"name": "U Gleisdreieck (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900017103",
+							"latitude": 52.499583,
+							"longitude": 13.374295
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:49:00+02:00",
+					"plannedArrival": "2025-04-28T23:48:00+02:00",
+					"arrivalDelay": 60,
+					"arrivalPlatform": "1 (U2)",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "1 (U2)",
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				}
+			],
+			"frames": [
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100016",
+						"name": "U Rosa-Luxemburg-Platz (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100016",
+							"latitude": 52.528529,
+							"longitude": 13.41009
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100003",
+						"name": "S+U Alexanderplatz Bhf (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100003",
+							"latitude": 52.521508,
+							"longitude": 13.411267
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": true
+						}
+					},
+					"t": 0
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100016",
+						"name": "U Rosa-Luxemburg-Platz (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100016",
+							"latitude": 52.528529,
+							"longitude": 13.41009
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100003",
+						"name": "S+U Alexanderplatz Bhf (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100003",
+							"latitude": 52.521508,
+							"longitude": 13.411267
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": true
+						}
+					},
+					"t": 10000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100016",
+						"name": "U Rosa-Luxemburg-Platz (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100016",
+							"latitude": 52.528529,
+							"longitude": 13.41009
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100003",
+						"name": "S+U Alexanderplatz Bhf (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100003",
+							"latitude": 52.521508,
+							"longitude": 13.411267
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": true
+						}
+					},
+					"t": 20000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100003",
+						"name": "S+U Alexanderplatz Bhf (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100003",
+							"latitude": 52.521508,
+							"longitude": 13.411267
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": true
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100015",
+						"name": "U Klosterstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100015",
+							"latitude": 52.517229,
+							"longitude": 13.412454
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": false,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 30000
+				}
+			],
+			"polyline": {
+				"type": "FeatureCollection",
+				"features": [
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41347,
+								52.52201
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41402,
+								52.52166
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41402,
+								52.52166
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41402,
+								52.52166
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"direction": "Weißer See",
+			"tripId": "1|73373|6|86|28042025",
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-tram-m4",
+				"fahrtNr": null,
+				"name": "M4",
+				"public": true,
+				"productName": "Tram",
+				"mode": "train",
+				"product": "tram"
+			},
+			"location": {
+				"type": "location",
+				"latitude": 52.52149,
+				"longitude": 13.412148
+			},
+			"nextStopovers": [
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900151003",
+						"name": "Zingster Str. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900151003",
+							"latitude": 52.57236,
+							"longitude": 13.495164
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": null,
+					"plannedArrival": null,
+					"arrivalDelay": null,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": "2025-04-28T23:05:00+02:00",
+					"plannedDeparture": "2025-04-28T23:05:00+02:00",
+					"departureDelay": 0,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100005",
+						"name": "U Alexanderplatz (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100005",
+							"latitude": 52.522083,
+							"longitude": 13.414593
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:30:00+02:00",
+					"plannedArrival": "2025-04-28T23:33:00+02:00",
+					"arrivalDelay": -180,
+					"arrivalPlatform": "Pos. 11",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "Pos. 11",
+					"departure": "2025-04-28T23:30:00+02:00",
+					"plannedDeparture": "2025-04-28T23:33:00+02:00",
+					"departureDelay": -180,
+					"departurePlatform": "Pos. 11",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "Pos. 11"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:35:00+02:00",
+					"plannedArrival": "2025-04-28T23:35:00+02:00",
+					"arrivalDelay": 0,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:35:00+02:00",
+					"plannedArrival": "2025-04-28T23:35:00+02:00",
+					"arrivalDelay": 0,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				}
+			],
+			"frames": [
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100005",
+						"name": "U Alexanderplatz (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100005",
+							"latitude": 52.522083,
+							"longitude": 13.414593
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 0
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100005",
+						"name": "U Alexanderplatz (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100005",
+							"latitude": 52.522083,
+							"longitude": 13.414593
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 10000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100005",
+						"name": "U Alexanderplatz (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100005",
+							"latitude": 52.522083,
+							"longitude": 13.414593
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 20000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100005",
+						"name": "U Alexanderplatz (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100005",
+							"latitude": 52.522083,
+							"longitude": 13.414593
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 30000
+				}
+			],
+			"polyline": {
+				"type": "FeatureCollection",
+				"features": [
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41215,
+								52.52149
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41207,
+								52.52147
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41201,
+								52.52145
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41201,
+								52.52145
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"direction": "Tiergarten, Philharmonie",
+			"tripId": "1|66915|5|86|28042025",
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-bus-300",
+				"fahrtNr": null,
+				"name": "300",
+				"public": true,
+				"productName": "Bus",
+				"mode": "bus",
+				"product": "bus"
+			},
+			"location": {
+				"type": "location",
+				"latitude": 52.519944,
+				"longitude": 13.413407
+			},
+			"nextStopovers": [
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900120004",
+						"name": "S+U Warschauer Str. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900120004",
+							"latitude": 52.505768,
+							"longitude": 13.449157
+						},
+						"products": {
+							"suburban": true,
+							"subway": true,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": null,
+					"plannedArrival": null,
+					"arrivalDelay": null,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": "2025-04-28T23:23:00+02:00",
+					"plannedDeparture": "2025-04-28T23:23:00+02:00",
+					"departureDelay": 0,
+					"departurePlatform": "Pos. 7",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "Pos. 7"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100711",
+						"name": "S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]",
+						"location": {
+							"type": "location",
+							"id": "900100711",
+							"latitude": 52.52087,
+							"longitude": 13.415034
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:34:00+02:00",
+					"plannedArrival": "2025-04-28T23:35:00+02:00",
+					"arrivalDelay": -60,
+					"arrivalPlatform": "Pos. 17",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "Pos. 17",
+					"departure": "2025-04-28T23:34:00+02:00",
+					"plannedDeparture": "2025-04-28T23:35:00+02:00",
+					"departureDelay": -60,
+					"departurePlatform": "Pos. 17",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "Pos. 17"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100559",
+						"name": "Jüdenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100559",
+							"latitude": 52.518317,
+							"longitude": 13.410396
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:35:00+02:00",
+					"plannedArrival": "2025-04-28T23:36:00+02:00",
+					"arrivalDelay": -60,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": "2025-04-28T23:35:00+02:00",
+					"plannedDeparture": "2025-04-28T23:36:00+02:00",
+					"departureDelay": -60,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900005207",
+						"name": "Philharmonie Süd (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900005207",
+							"latitude": 52.508761,
+							"longitude": 13.370025
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:49:00+02:00",
+					"plannedArrival": "2025-04-28T23:50:00+02:00",
+					"arrivalDelay": -60,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				}
+			],
+			"frames": [
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100711",
+						"name": "S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]",
+						"location": {
+							"type": "location",
+							"id": "900100711",
+							"latitude": 52.52087,
+							"longitude": 13.415034
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100559",
+						"name": "Jüdenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100559",
+							"latitude": 52.518317,
+							"longitude": 13.410396
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 0
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100711",
+						"name": "S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]",
+						"location": {
+							"type": "location",
+							"id": "900100711",
+							"latitude": 52.52087,
+							"longitude": 13.415034
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100559",
+						"name": "Jüdenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100559",
+							"latitude": 52.518317,
+							"longitude": 13.410396
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 10000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100711",
+						"name": "S+U Alexanderpl./Grunerstr.(Bln) [Grunerstr.]",
+						"location": {
+							"type": "location",
+							"id": "900100711",
+							"latitude": 52.52087,
+							"longitude": 13.415034
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100559",
+						"name": "Jüdenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100559",
+							"latitude": 52.518317,
+							"longitude": 13.410396
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 20000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100559",
+						"name": "Jüdenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100559",
+							"latitude": 52.518317,
+							"longitude": 13.410396
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100045",
+						"name": "U Rotes Rathaus (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100045",
+							"latitude": 52.518461,
+							"longitude": 13.407061
+						},
+						"products": {
+							"suburban": false,
+							"subway": true,
+							"tram": false,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 30000
+				}
+			],
+			"polyline": {
+				"type": "FeatureCollection",
+				"features": [
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41341,
+								52.51995
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41308,
+								52.51981
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.4096,
+								52.51816
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.40923,
+								52.51797
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"direction": "S+U Alexanderplatz",
+			"tripId": "1|73037|10|86|28042025",
+			"line": {
+				"type": "line",
+				"id": "de-vbb-11000000-tram-m2",
+				"fahrtNr": null,
+				"name": "M2",
+				"public": true,
+				"productName": "Tram",
+				"mode": "train",
+				"product": "tram"
+			},
+			"location": {
+				"type": "location",
+				"latitude": 52.523045,
+				"longitude": 13.410611
+			},
+			"nextStopovers": [
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900141506",
+						"name": "Am Steinberg (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900141506",
+							"latitude": 52.558382,
+							"longitude": 13.4333
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": true,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": null,
+					"plannedArrival": null,
+					"arrivalDelay": null,
+					"arrivalPlatform": null,
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": null,
+					"departure": "2025-04-28T23:19:00+02:00",
+					"plannedDeparture": "2025-04-28T23:19:00+02:00",
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100731",
+						"name": "S+U Alexanderplatz/Memhardstr. (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100731",
+							"latitude": 52.523513,
+							"longitude": 13.411366
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:34:00+02:00",
+					"plannedArrival": "2025-04-28T23:34:00+02:00",
+					"arrivalDelay": null,
+					"arrivalPlatform": "Pos. 4",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "Pos. 4",
+					"departure": "2025-04-28T23:34:00+02:00",
+					"plannedDeparture": "2025-04-28T23:34:00+02:00",
+					"departureDelay": null,
+					"departurePlatform": "Pos. 4",
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": "Pos. 4"
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:36:00+02:00",
+					"plannedArrival": "2025-04-28T23:36:00+02:00",
+					"arrivalDelay": null,
+					"arrivalPlatform": "Pos. 14",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "Pos. 14",
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				},
+				{
+					"stop": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"arrival": "2025-04-28T23:36:00+02:00",
+					"plannedArrival": "2025-04-28T23:36:00+02:00",
+					"arrivalDelay": null,
+					"arrivalPlatform": "Pos. 14",
+					"arrivalPrognosisType": null,
+					"plannedArrivalPlatform": "Pos. 14",
+					"departure": null,
+					"plannedDeparture": null,
+					"departureDelay": null,
+					"departurePlatform": null,
+					"departurePrognosisType": null,
+					"plannedDeparturePlatform": null
+				}
+			],
+			"frames": [
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100731",
+						"name": "S+U Alexanderplatz/Memhardstr. (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100731",
+							"latitude": 52.523513,
+							"longitude": 13.411366
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 0
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100731",
+						"name": "S+U Alexanderplatz/Memhardstr. (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100731",
+							"latitude": 52.523513,
+							"longitude": 13.411366
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 10000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100731",
+						"name": "S+U Alexanderplatz/Memhardstr. (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100731",
+							"latitude": 52.523513,
+							"longitude": 13.411366
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 20000
+				},
+				{
+					"origin": {
+						"type": "stop",
+						"id": "900100731",
+						"name": "S+U Alexanderplatz/Memhardstr. (Berlin) [Tram]",
+						"location": {
+							"type": "location",
+							"id": "900100731",
+							"latitude": 52.523513,
+							"longitude": 13.411366
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"destination": {
+						"type": "stop",
+						"id": "900100024",
+						"name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+						"location": {
+							"type": "location",
+							"id": "900100024",
+							"latitude": 52.521481,
+							"longitude": 13.411924
+						},
+						"products": {
+							"suburban": false,
+							"subway": false,
+							"tram": true,
+							"bus": false,
+							"ferry": false,
+							"express": false,
+							"regional": false
+						}
+					},
+					"t": 30000
+				}
+			],
+			"polyline": {
+				"type": "FeatureCollection",
+				"features": [
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41061,
+								52.52305
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41031,
+								52.52286
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41018,
+								52.52262
+							]
+						}
+					},
+					{
+						"type": "Feature",
+						"properties": {},
+						"geometry": {
+							"type": "Point",
+							"coordinates": [
+								13.41042,
+								52.5224
+							]
+						}
+					}
+				]
+			}
+		}
+	],
+	"realtimeDataUpdatedAt": 1745876063
+}
