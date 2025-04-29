@@ -1,6 +1,8 @@
 services:
   postgres:
     image: postgres:15.6
+    ports:
+      - "5432:5432"
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-S3cr3t_P4ssw0rd}
