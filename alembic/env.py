@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from app.db.models import Base
+from app.db.models import Base, Vehicle, VehiclePosition
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -67,10 +67,14 @@ def run_migrations_online() -> None:
 
     with connectable.connect() as connection:
         context.configure(
-            connection=connection, target_metadata=target_metadata
+            connection=connection,
+            target_metadata=target_metadata,
+            version_table_schema=target_metadata.schema,
+            include_schemas=True
         )
 
         with context.begin_transaction():
+            context.execute('SET search_path TO public')
             context.run_migrations()
 
 
