@@ -41,7 +41,7 @@ class Vehicle(Base):
     trip_id: Mapped[str] = mapped_column(String, nullable=False)
     line_product: Mapped[LineProductEnum] = mapped_column(Enum(LineProductEnum, name="line_product_enum"), nullable=False)
     line_name: Mapped[str] = mapped_column(String, nullable=False)
-    partition_dt: Mapped[date] = mapped_column(Date, nullable=False)
+    partition_dt: Mapped[date] = mapped_column(Date, primary_key=True)
 
     positions: Mapped[List["VehiclePosition"]] = relationship(
         back_populates="vehicle",
@@ -66,6 +66,6 @@ class VehiclePosition(Base):
     timestamp: Mapped[datetime] = mapped_column(TIMESTAMP(timezone=False), primary_key=True)
     latitude: Mapped[float] = mapped_column(DECIMAL(38, 18), nullable=False)
     longitude: Mapped[float] = mapped_column(DECIMAL(38, 18), nullable=False)
-    partition_dt: Mapped[date] = mapped_column(Date, nullable=False)
+    partition_dt: Mapped[date] = mapped_column(Date, primary_key=True)
 
     vehicle: Mapped["Vehicle"] = relationship(back_populates="positions")
